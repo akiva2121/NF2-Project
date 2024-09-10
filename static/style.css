@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex; /* Use Flexbox */
+    gap: 10px; /* Add space between buttons */
+}
+
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Ensure text inside a doesn't underline */
+    color: #333; /* Default color for icons */
+}
+
+.button .icon {
+    font-size: 20px;
+}
+
+.button:hover {
+    width: 100px;
+    transition: width 0.7s;
+}
+
+.button:nth-child(1):hover .icon {
+    color: blue;
+}
+
+.button:nth-child(2):hover .icon {
+    color: #C13584; /* Instagram color */
+}
+
+.button:nth-child(3):hover .icon {
+    color: #1DA1F2; /* Twitter color */
+}
+
+.button:nth-child(4):hover .icon {
+    color: #0077B5; /* LinkedIn color */
+}
+
+.button:nth-child(5):hover .icon {
+    color: #333; /* GitHub color */
+}

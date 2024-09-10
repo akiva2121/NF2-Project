@@ -1,0 +1,45 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header class="masthead" style="background-image: url('../static/assets/img/about-bg.jpg')">
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>Symptoms and signs</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content-->
+<div class="container px-4 px-lg-5">
+  <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="col-md-10 col-lg-8 col-xl-7">
+      <p>
+        Symptoms can occur at any age, typically in adolescence and early adulthood, and rarely seen in children, and the severity depends on the location of the tumours. Symptoms include, but are not limited to:
+        <ul>
+          <li>Tinnitus</li>
+          <li>Loss/problems of balance</li>
+          <li>Glaucoma</li>
+          <li>Seizures</li>
+          <li>Hearing loss</li>
+          <li>Vision impairment</li>
+          <li>Numbness or weakness in arms and legs</li>
+        </ul>
+      </p>
+
+      <p>
+        <h2>Hearing loss</h2>
+        Because hearing loss in those with NF2 almost always occurs after acquisition of verbal language skills, people with NF2 do not always integrate well into Deaf culture and are more likely to resort to auditory assistive technology.[citation needed] One of these devices is the cochlear implant, which can sometimes restore a high level of auditory function even when natural hearing is totally lost. However, the amount of destruction to the cochlear nerve caused by the typical NF2 schwannoma often precludes the use of such an implant. In these cases, an auditory brainstem implant (ABI) can restore some level of hearing, supplemented by lip reading.
+      </p>
+
+      <div class="bd-example text-center">
+        <img src="{{url_for('static', filename='images/NF2_img.png')}}" class="img-fluid" alt="NF2 Image"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include "footer.html" %}
